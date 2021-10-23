@@ -6,7 +6,7 @@ import com.intellij.xdebugger.XDebuggerManager;
 
 class TableGlimpseStartupActivity : StartupActivity{
     override fun runActivity(project: Project) {
-        project.messageBus.connect()
-                .subscribe(XDebuggerManager.TOPIC, TableGlimpseXDebuggerManagerListener())
+        //project.messageBus.connect()
+        //        .subscribe(XDebuggerManager.TOPIC, TableGlimpseXDebuggerManagerListener())
     }
 }

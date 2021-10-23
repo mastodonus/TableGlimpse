@@ -1,9 +1,8 @@
-package com.jetbrains.rider.plugins.tableglimpse
+package com.jetbrains.rider.plugins.tableglimpse.debug
 
 import com.intellij.ui.SimpleTextAttributes
 import com.intellij.xdebugger.frame.XCompositeNode
 import com.intellij.xdebugger.frame.XDebuggerTreeNodeHyperlink
-import com.intellij.xdebugger.frame.XValue
 import com.intellij.xdebugger.frame.XValueChildrenList
 import javax.swing.Icon
 

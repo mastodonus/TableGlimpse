@@ -13,4 +13,14 @@
 ]]>
   </description>
 
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationConfigurable groupId="language" instance="com.jetbrains.rider.plugins.exampleriderplugin.SampleOptionsPage" id="SampleOptionsPage" />
+  </extensions>
+
+  <actions>
+    <action id="TableGlimpseOpenToolWindowAction" class="com.jetbrains.rider.plugins.tableglimpse.toolwindow.TableGlimpseOpenToolWindowAction"
+            text="Open TableGlimpse" description="Open TableGlimpse Description">
+    </action>
+  </actions>
+
 </idea-plugin>
